@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="UZ2UAVi8bX-k9DhTOhiL">
+    <mxGraphModel dx="774" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lLu-CC2luITcKKD26vgI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L1_SOURCE SYSTEMS:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;Customer Master&lt;/div&gt;&lt;div&gt;Account Master&lt;/div&gt;&lt;div&gt;Loan Master&lt;/div&gt;&lt;div&gt;Transaction Master&lt;/div&gt;&lt;div&gt;Branch Master&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="240" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L2_SAS ETL:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;Data Extraction&lt;/div&gt;&lt;div&gt;Transformation&lt;/div&gt;&lt;div&gt;Validation&lt;/div&gt;&lt;div&gt;Loading&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="240" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L3_STAGING:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Raw Landing Zone&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;stg_customer&lt;/div&gt;&lt;div&gt;stg_account&lt;/div&gt;&lt;div&gt;stg_loan&lt;/div&gt;&lt;div&gt;stg_transaction&lt;/div&gt;&lt;div&gt;stg_branch&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="149" width="240" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L4_ODS:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Cleansed &amp;amp; Standardized Data&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ods_customer&lt;/span&gt;&lt;div&gt;&lt;div&gt;ods_account&lt;/div&gt;&lt;div&gt;ods_loan&lt;/div&gt;&lt;div&gt;ods_transaction&lt;/div&gt;&lt;div&gt;ods_branch&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="220" x="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L5_DWH:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Enterprise Analytics Layer&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;dim_customer&lt;/div&gt;&lt;div&gt;dim_account&lt;/div&gt;&lt;div&gt;dim_branch&lt;/div&gt;&lt;div&gt;dim_date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fact_transaction&lt;/div&gt;&lt;div&gt;fact_loan&lt;/div&gt;&lt;div&gt;fact_profitability&lt;/div&gt;&lt;div&gt;fact_risk&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="220" x="260" y="170.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L6_DATA_MART:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Business Reporting Layer&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;div style=&quot;&quot;&gt;customer_profitability_mart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;loan_risk_mart&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;branch_performance_mart&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20value%3D%22%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2014px%3B%26quot%3B%26gt%3BDWH%3A-%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20size%3D%26quot%3B3%26quot%3B%26gt%3B%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bdiv%26gt%3Bdim_customer%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bdim_account%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bdim_branch%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bdim_date%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bfact_transaction%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bfact_loan%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bfact_profitability%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bfact_risk%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22190%22%20width%3D%22220%22%20x%3D%22260%22%20y%3D%22140%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="280" x="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L7_POWER_BI:-&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Visualization Layer&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;=====================&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;Executive Dashboard&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Customer Analytics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Analytics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Loan Analytics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Branch Analytics&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="189.5" width="280" x="490" y="170.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="640" width="640" x="94" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-27" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-9" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SOURCE SYSTEMS" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-26" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-10" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SAS ETL" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-28" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-11" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="STAGING" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-29" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-12" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ODS" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-30" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-13" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DWH" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-31" edge="1" parent="1" source="lLu-CC2luITcKKD26vgI-14" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lLu-CC2luITcKKD26vgI-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATA MART" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="lLu-CC2luITcKKD26vgI-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POWER BI" vertex="1">
+          <mxGeometry height="40" width="170" x="310" y="960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

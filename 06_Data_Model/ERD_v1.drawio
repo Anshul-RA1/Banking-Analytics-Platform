@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="t7oKGJkvMzFfveccSf-W">
+    <mxGraphModel dx="803" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BXSPu48EteOb8g2G3-_S-9" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BXSPu48EteOb8g2G3-_S-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-29" connectable="0" parent="BXSPu48EteOb8g2G3-_S-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.7885" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-18" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BXSPu48EteOb8g2G3-_S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-30" connectable="0" parent="BXSPu48EteOb8g2G3-_S-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.9071" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-23" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BXSPu48EteOb8g2G3-_S-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-28" connectable="0" parent="BXSPu48EteOb8g2G3-_S-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.9171" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-25" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BXSPu48EteOb8g2G3-_S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-31" connectable="0" parent="BXSPu48EteOb8g2G3-_S-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.3894" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;DIM_CUSTOMER&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==============&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;(PK) customer_key&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;customer_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;customer_name&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;gender&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;city&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;occupation&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;annual_income&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;risk_category&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;country&lt;/div&gt;&lt;div&gt;customer_since&lt;/div&gt;&lt;div&gt;customer_segment&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="170" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-11" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BXSPu48EteOb8g2G3-_S-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-42" connectable="0" parent="BXSPu48EteOb8g2G3-_S-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.0594" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;DIM_ACCOUNT&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==============&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) account_key&lt;/div&gt;&lt;div&gt;account_id&lt;/div&gt;&lt;div&gt;customer_key (FK)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;account_type&lt;/span&gt;&lt;/div&gt;&lt;div&gt;balance&lt;/div&gt;&lt;div&gt;status&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="170" x="660" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;DIM_BRANCH&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==============&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) branch_key&lt;/div&gt;&lt;div&gt;branch_id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;branch_name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;city&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;region&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;manager_name&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="170" x="10" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-16" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BXSPu48EteOb8g2G3-_S-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="350" />
+              <mxPoint x="613" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-41" connectable="0" parent="BXSPu48EteOb8g2G3-_S-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="0.1488" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-26" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="BXSPu48EteOb8g2G3-_S-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-37" connectable="0" parent="BXSPu48EteOb8g2G3-_S-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.566" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-27" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BXSPu48EteOb8g2G3-_S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-38" connectable="0" parent="BXSPu48EteOb8g2G3-_S-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.5833" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;DIM_DATE&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==============&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) date_key&lt;/div&gt;&lt;div&gt;full_date&lt;/div&gt;&lt;div&gt;month&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;quarter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;year&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="170" x="670" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;FACT_TRANSACTION&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==================&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) transaction_key&lt;/div&gt;&lt;div&gt;customer_key (FK)&lt;/div&gt;&lt;div&gt;account_key (FK)&lt;/div&gt;&lt;div&gt;branch_key (FK)&lt;/div&gt;&lt;div&gt;date_key (FK)&lt;/div&gt;&lt;div&gt;amount&lt;/div&gt;&lt;div&gt;transaction_type&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="196" x="360" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;FACT_LOAN&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==================&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) loan_key&lt;/div&gt;&lt;div&gt;customer_key (FK)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;branch_key (FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;date_key (FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;loan_amount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interest_rate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;loan_status&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="196" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;FACT_PROFITABILITY&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==================&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) profitability_key&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;customer_key (FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;date_key (FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;revenue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cost&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;profit&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="196" x="360" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;FACT_RISK&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;==================&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;(PK) risk_key&lt;/div&gt;&lt;div&gt;customer_key (FK)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;date_key (FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;risk_score&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;risk_category&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="196" x="370" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-17" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" target="BXSPu48EteOb8g2G3-_S-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-32" connectable="0" parent="BXSPu48EteOb8g2G3-_S-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.7555" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-19" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" target="BXSPu48EteOb8g2G3-_S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-33" connectable="0" parent="BXSPu48EteOb8g2G3-_S-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="-0.7084" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-20" edge="1" parent="1" source="BXSPu48EteOb8g2G3-_S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.99;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" target="BXSPu48EteOb8g2G3-_S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-40" connectable="0" parent="BXSPu48EteOb8g2G3-_S-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 : M" vertex="1">
+          <mxGeometry relative="1" x="0.0037" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXSPu48EteOb8g2G3-_S-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;SURROGATE KEY&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;=================&lt;/b&gt;&lt;/div&gt;&lt;div&gt;customer_key&lt;/div&gt;&lt;div&gt;account_key&lt;/div&gt;&lt;div&gt;branch_key&lt;/div&gt;&lt;div&gt;date_key&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="290" x="20" y="1150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
